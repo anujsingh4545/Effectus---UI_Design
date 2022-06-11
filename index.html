@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b189f630d2.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+
+
+      <!-- Code For navar Section -->
+
+      <div class=" fixed  m-auto bg-[#171822]  w-[100%] lg:px-5 xl:px-10  z-50 shadow-md  shadow-[#f5f4f45e] flex items-center justify-between">
+        <nav class="  p-2 bg-[#171822] shadow lg:flex lg:items-center lg:justify-between w-[100%]  max-w-[1600px] m-auto  ">
+
+          <div class="flex justify-between items-center ">
+            <img src="images/logo.png" alt="" class=" w-[8rem] py-2 lg:py-0  lg:w-[11rem] " />
+            <span class="text-3xl cursor-pointer mx-2 lg:hidden block">
+              <ion-icon name="menu" class=" text-gray-500 " onclick="Menu(this)"></ion-icon>
+            </span>
+          </div>
+      
+          <ul class="lg:flex md:items-center z-[-1] lg:z-auto lg:static absolute  bg-[#171822]  w-full left-0 lg:w-auto lg:py-0 py-4 lg:pl-0 px-4 lg:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500  bg-[#171822]   ">
+            <li class=" lg:mx-2 my-4 lg:my-4">
+              <a href="#" class=" lg:nav-link text-[1.1rem] text-slate-200  font-thin tracking-wider duration-500">Home</a>
+            </li>
+            <li class=" lg:mx-3 my-4 lg:my-4">
+              <a href="#" class="nav-link text-[1.1rem] text-slate-200  font-thin tracking-wider duration-500">About</a>
+            </li>
+            <li class="  lg:mx-3 my-4 lg:my-4">
+              <a href="#" class="nav-link text-[1.1rem] text-slate-200  font-thin tracking-wider duration-500">Schedule</a>
+            </li>
+            <li class=" lg:mx-3 my-4 lg:my-4">
+              <a href="#" class=" nav-link text-[1.1rem] text-slate-200  font-thin tracking-wider duration-500">Speakers</a>
+            </li>
+            <li class=" lg:mx-3 my-4 lg:my-4">
+              <a href="/sponsors.html" class=" nav-link text-[1.1rem] text-slate-200  font-thin tracking-wider duration-500">Sponsors</a>
+            </li>
+            <li class=" lg:mx-3 my-4 lg:my-4">
+              <a href="#" class=" nav-link text-[1.1rem] text-slate-200  font-thin tracking-wider duration-500">Contact</a>
+            </li>
+      
+           
+            
+            <div class=" lg:hidden bg-gradient-to-r from-[#e27c25] mt-5  to-[#f34f84] text-center py-3 px-10 text-[1.1rem] duration-500 font-medium rounded-lg text-slate-200 cursor-pointer   ">
+              Register Now
+            </div>
+          </ul>
+          <div class=" hidden  lg:inline bg-gradient-to-r from-[#e27c25] to-[#f34f84] text-center py-3 px-10 text-[1rem] duration-500 font-medium rounded-full text-slate-200 cursor-pointer   ">
+            Register Now
+          </div>
+        </nav>
+      </div>
+
+
+      <!-- Adding landing or banner page which is empty currently -->
+
+      <div class=" w-[100%] max-w-[1600px] h-[100vh] bg-white max-w-[1600px] m-auto "></div>
+
+
+      <!-- Adding count component : which shows data about tpp -->
+
+      <div class="flex lg:px-16 flex-wrap items-center  my-10 w-[100%] max-w-[1600px] m-auto">
+        <section class="w-[50%] md:w-[25%] flex items-center justify-center flex-col px-3 lg:px-5 border-0 border-black h-32 bg-sky-600 ">
+          <p class="text-slate-50 text-[2.1rem] md:text-[2rem] lg:text-[2.3rem] font-bold tracking-wide">
+            CU-TBI
+          </p>
+          <p class="text-center font-normal text-slate-100 text-[0.8rem] md:text-[0.9rem]">
+            Opportunity to incubate at CU-TBI
+          </p>
+        </section>
+        <section class="w-[50%] md:w-[25%] flex items-center justify-center flex-col px-3 lg:px-5 border-0 border-black h-32 bg-sky-700">
+          <p class="text-slate-50 text-[2.1rem] md:text-[2rem] lg:text-[2.3rem] font-bold tracking-wide">
+            1200 Plus
+          </p>
+          <p class="text-center font-normal text-slate-100 text-[0.8rem] md:text-[0.9rem]">
+            Patents Filled
+          </p>
+        </section>
+        <section class="w-[50%] md:w-[25%] flex items-center justify-center flex-col px-3 lg:px-5 border-0 border-black h-32 bg-sky-700 md:bg-sky-600">
+          <p class="text-slate-50 text-[2.1rem] md:text-[2rem] lg:text-[2.3rem] font-bold tracking-wide">
+            600 Plus
+          </p>
+          <p class="text-center font-normal text-slate-100 text-[0.8rem] md:text-[0.9rem]">
+            Published
+          </p>
+        </section>
+        <section class="w-[50%] md:w-[25%] flex items-center justify-center flex-col px-3 lg:px-5 border-0 border-black h-32 bg-sky-600 md:bg-sky-700">
+          <p class="text-slate-50 text-[2.1rem] md:text-[2rem] lg:text-[2.3rem] font-bold tracking-wide">
+            120 Plus
+          </p>
+          <p class="text-center font-normal text-slate-100 text-[0.8rem] md:text-[0.9rem]">
+            Startups
+          </p>
+        </section>
+      </div>
+
+
+      <!-- About Effectus component -->
+
+      <div class=" w-[100%] px-2 md:px-16 my-20 max-w-[1600px] m-auto ">
+        
+  
+        <section class=" flex w-[100%] items-center flex-col lg:flex-row ">
+          
+  
+          <div class=" w-[100%]  lg:w-[50%]">
+            <h2 class=" text-[2.1rem]  md:text-[2.8rem] text-left text-slate-900 tracking-wide font-bold  ">
+              The Biggest Digital <br /> Conference.
+            </h2>
+  
+            <p class=" mt-7 text-[1.1rem] font-normal text-[#64676c] ">
+              There arge many variations ohf passages of sorem gpsum ilable, but
+              the majority have suffered alteration in some form, by ected humour,
+              or randomised words where arge many variations ohf passages of sorem
+              gpsum ilable.
+              <br />
+              <br />
+              There arge many variations ohf passages of sorem gpsum ilable, but
+              the majority have suffered alteration in.
+            </p>
+            <section class=" flex w-[100%] items-center  my-12 ">
+              <div class=" flex w-[50%] items-center   ">
+                <i class="bi bi-geo-alt-fill  text-[#3a3a3a] text-[1.9rem] mr-5  "></i>
+                <section class=" flex-1 flex flex-col items-center justify-start ">
+                  <p class=" text-[1.2rem] font-medium  text-[#26264B] text-left  w-[100%] tracking-wider ">
+                    Where
+                  </p>
+                  <p class=" text-[0.9rem] tracking-wide mt-1 text-[#64676c] w-[100%] ">
+                    New York, United States
+                  </p>
+                </section>
+              </div>
+  
+              <div class=" flex w-[50%] items-center   ">
+                <i class="bi bi-file-code  text-[#3a3a3a] text-[1.9rem] mr-5  "></i>
+                <section class=" flex-1 flex flex-col items-center justify-start ">
+                  <p class=" text-[1.2rem] font-medium  text-[#26264B] text-left  w-[100%] tracking-wider ">
+                    When
+                  </p>
+                  <p class=" text-[0.9rem] tracking-wide mt-1 text-[#64676c] w-[100%] ">
+                    Jan. 21. 2021
+                  </p>
+                </section>
+              </div>
+            </section>
+  
+            <a
+              href="#_"
+              class="relative inline-flex items-center justify-start px-10 py-3 overflow-hidden font-medium transition-all bg-sky-600 rounded-xl group"
+            >
+              <span class="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-sky-800 rounded group-hover:-mr-4 group-hover:-mt-4">
+                <span class="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-white"></span>
+              </span>
+              <span class="absolute bottom-0 left-0 w-full h-full transition-all duration-500 ease-in-out delay-200 -translate-x-full translate-y-full bg-sky-700 rounded-2xl group-hover:mb-12 group-hover:translate-x-0"></span>
+              <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-white">
+                Get Your Ticket
+              </span>
+            </a>
+          </div>
+  
+          <div class=" w-[100%] lg:w-[50%] relative flex items-center justify-end py-8 ">
+            <img src="/images/second.png" alt="" class="w-[100%] xl:w-fit " />
+            <img
+              src="/images/first.png"
+              alt=""
+              class=" hidden xl:inline  absolute bottom-0 left-0 "
+            />
+          </div>
+    
+        </section>
+      
+      </div>
+
+
+      <!-- Adding speakers page -->
+
+      <div class=" bg-[url('/images/back.webp')]  back_grill w-[100%] mt-10  clip-paths3 md:clip-paths  py-10 md:py-16 px-3 md:px-20 max-w-[1600px] m-auto ">
+        <p class=" text-[2rem] sm:text-[2.5rem] tracking-wide font-bold text-white text-center   leading-10">
+          <span class=" text-[1.3rem]  font-medium">OUR SPEAKINGS</span>
+          <br />
+          WHO'S SPEAKING
+        </p>
+  
+        <section class=" w-[100%] flex items-center justify-around flex-wrap mt-10 mb-14   ">
+          <div class=" relative w-[100%] sm:w-[47%] md:w-[30%] rounded-xl shadow-lg h-fit  shadow-[#000000d9] mt-10 hover:scale-105 duration-100 transition-all delay-150 ease-in-out  ">
+            <img src="/images/speaker1.webp" alt="" class=" w-[100%] rounded-xl  " />
+  
+            <section class=" absolute  bottom-0 left-0 w-[100%] rounded-b-xl py-1 px-5  bg-[#00000069] ">
+              <p class=" text-[1.2rem] font-medium text-white tracking-wide ">
+                Albert Barnes
+              </p>
+              <p class=" text-[1rem] font-medium text-pink-500  tracking-wide ">
+                Founder
+              </p>
+            </section>
+  
+            <section class="absolute top-0 right-0 flex-col px-3 bg-pink-500 rounded-tr-xl rounded-bl-2xl py-5 space-y-4 w-[2.5rem]  ">
+              <i class="fa-brands fa-facebook-f block cursor-pointer "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer "></i>
+              <i class="fa-brands fa-instagram   cursor-pointer"></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer "></i>
+
+            </section>
+          </div>
+  
+          <div class=" relative w-[100%] sm:w-[47%] md:w-[30%] rounded-2xl  shadow-lg h-fit  shadow-[#000000d9] mt-10 hover:scale-105 duration-100 transition-all delay-150 ease-in-out  ">
+            <img src="/images/speaker2.webp" alt="" class=" w-[100%] rounded-xl  " />
+  
+            <section class=" absolute  bottom-0 left-0 w-[100%] rounded-b-xl py-1 px-5  bg-[#00000080] ">
+              <p class=" text-[1.2rem] font-medium text-white tracking-wide ">
+                Patricia Stanley
+              </p>
+              <p class=" text-[1rem] font-medium text-pink-500  tracking-wide ">
+                Product Lead
+              </p>
+            </section>
+  
+            <section class="absolute top-0 right-0 flex-col px-3 bg-pink-500 rounded-tr-xl rounded-bl-2xl py-5 space-y-4 w-[2.5rem]  ">
+              <i class="fa-brands fa-facebook-f block cursor-pointer "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer "></i>
+              <i class="fa-brands fa-instagram   cursor-pointer"></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer "></i>
+
+            </section>
+          </div>
+  
+          <div class=" relative  w-[100%] sm:w-[47%] md:w-[30%] rounded-2xl shadow-lg h-fit  shadow-[#000000d9] mt-10  hover:scale-105 duration-100 transition-all delay-150 ease-in-out">
+            <img src="/images/speaker3.webp" alt="" class=" w-[100%] rounded-xl  " />
+  
+            <section class=" absolute  bottom-0 left-0 w-[100%] rounded-b-xl py-1 px-5  bg-[#00000080] ">
+              <p class=" text-[1.2rem] font-medium text-white tracking-wide ">
+                Evelyn Stone
+              </p>
+              <p class=" text-[1rem] font-medium text-pink-500  tracking-wide ">
+                Photographer
+              </p>
+            </section>
+  
+            <section class="absolute top-0 right-0 flex-col px-3 bg-pink-500 rounded-tr-xl rounded-bl-2xl py-5 space-y-4 w-[2.5rem]  ">
+              <i class="fa-brands fa-facebook-f block cursor-pointer "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer "></i>
+              <i class="fa-brands fa-instagram   cursor-pointer"></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer "></i>
+
+            </section>
+          </div>
+  
+          <div class=" relative  w-[100%] sm:w-[47%] md:w-[30%] rounded-2xl shadow-lg h-fit  shadow-[#000000d9]  mt-10  hover:scale-105 duration-100 transition-all delay-150 ease-in-out">
+            <img src="/images/speaker3.webp" alt="" class=" w-[100%] rounded-xl  " />
+  
+            <section class=" absolute  bottom-0 left-0 w-[100%] rounded-b-xl py-1 px-5  bg-[#00000080] ">
+              <p class=" text-[1.2rem] font-medium text-white tracking-wide ">
+                Evelyn Stone
+              </p>
+              <p class=" text-[1rem] font-medium text-pink-500  tracking-wide ">
+                Photographer
+              </p>
+            </section>
+  
+            <section class="absolute top-0 right-0 flex-col px-3 bg-pink-500 rounded-tr-xl rounded-bl-2xl py-5 space-y-4 w-[2.5rem]  ">
+              <i class="fa-brands fa-facebook-f block cursor-pointer "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer "></i>
+              <i class="fa-brands fa-instagram   cursor-pointer"></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer "></i>
+
+            </section>
+          </div>
+  
+          <div class=" relative  w-[100%] sm:w-[47%] md:w-[30%] rounded-2xl shadow-lg h-fit  shadow-[#000000d9] mt-10  hover:scale-105 duration-100 transition-all delay-150 ease-in-out">
+            <img src="/images/speaker2.webp" alt="" class=" w-[100%] rounded-xl  " />
+  
+            <section class=" absolute  bottom-0 left-0 w-[100%] rounded-b-xl py-1 px-5  bg-[#00000080] ">
+              <p class=" text-[1.2rem] font-medium text-white tracking-wide ">
+                Evelyn Stone
+              </p>
+              <p class=" text-[1rem] font-medium text-pink-500  tracking-wide ">
+                Photographer
+              </p>
+            </section>
+  
+            <section class="absolute top-0 right-0 flex-col px-3 bg-pink-500 rounded-tr-xl rounded-bl-2xl py-5 space-y-4 w-[2.5rem]  ">
+              <i class="fa-brands fa-facebook-f block cursor-pointer "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer "></i>
+              <i class="fa-brands fa-instagram   cursor-pointer"></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer "></i>
+
+            </section>
+          </div>
+  
+          <div class=" relative  w-[100%] sm:w-[47%] md:w-[30%] rounded-2xl shadow-lg h-fit  shadow-[#000000d9] mt-10 hover:scale-105 duration-100 transition-all delay-150 ease-in-out">
+            <img src="/images/speaker3.webp" alt="" class=" w-[100%] rounded-xl  " />
+  
+            <section class=" absolute  bottom-0 left-0 w-[100%] rounded-b-xl py-1 px-5  bg-[#00000080] ">
+              <p class=" text-[1.2rem] font-medium text-white tracking-wide ">
+                Evelyn Stone
+              </p>
+              <p class=" text-[1rem] font-medium text-pink-500  tracking-wide ">
+                Photographer
+              </p>
+            </section>
+  
+            <section class="absolute top-0 right-0 flex-col px-3 bg-pink-500 rounded-tr-xl rounded-bl-2xl py-5 space-y-4 w-[2.5rem]  ">
+              <i class="fa-brands fa-facebook-f block cursor-pointer "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer "></i>
+              <i class="fa-brands fa-instagram   cursor-pointer"></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer "></i>
+
+            </section>
+          </div>
+        </section>
+      </div>
+
+      <!-- Platinum sponsors section  -->
+
+
+      <div class=" w-[100%] max-w-[1600px] m-auto  bg-gradient-to-r from-sky-600 to-indigo-700 mb-10   clip-paths2 md:clip-paths py-10 md:py-20 px-2 md:px-20 ">
+        <p class=" text-[2rem] sm:text-[2.5rem] tracking-wide font-bold text-white text-center mt-4 ">
+          Offical Sponsors
+        </p>
+  
+        <section class=" w-[100%] flex items-center mt-14 mb-20  flex-wrap ">
+          <div class=" w-[50%] md:w-[25%]  flex items-center justify-center border-[0.05rem] border-gray-200 hover:bg-[#171822]  delay-100 duration-100  ">
+            <a href="#">
+              <img
+                src="/images/1.webp"
+                alt=""
+                class=" w-fit h-[12rem] py-12  px-6 grayscale  hover:scale-110 delay-100 ease-out duration-100 "
+              />
+            </a>
+          </div>
+          <div class=" w-[50%] md:w-[25%]  flex items-center justify-center border-[0.05rem] border-gray-200 hover:bg-[#171822]  delay-100 duration-100  ">
+            <a href="#">
+              <img
+                src="/images/2.png"
+                alt=""
+                class="  w-fit h-[12rem] py-12  px-6    grayscale  hover:scale-110 delay-100 ease-out duration-100 "
+              />
+            </a>
+          </div>
+          <div class=" w-[50%] md:w-[25%]  flex items-center justify-center border-[0.05rem] border-gray-200 hover:bg-[#171822]  delay-100 duration-100  ">
+            <a href="#">
+              <img
+                src="/images/3.webp"
+                alt=""
+                class="  w-fit h-[12rem] py-12  px-6   grayscale  hover:scale-110 delay-100 ease-out duration-100 "
+              />
+            </a>
+          </div>
+          <div class=" w-[50%] md:w-[25%]  flex items-center justify-center border-[0.05rem] border-gray-200 hover:bg-[#171822]  delay-100 duration-100  ">
+            <a href="#">
+              <img
+                src="/images/4.webp"
+                alt=""
+                class=" w-fit h-[12rem] py-12  px-6   grayscale  hover:scale-110 delay-100 ease-out duration-100 "
+              />
+            </a>
+          </div>
+          <div class=" w-[50%] md:w-[25%]  flex items-center justify-center border-[0.05rem] border-gray-200 hover:bg-[#171822]  delay-100 duration-100  ">
+            <a href="#">
+              <img
+                src="/images/5.webp"
+                alt=""
+                class=" w-fit h-[12rem] py-12  px-6 grayscale  hover:scale-110 delay-100 ease-out duration-100 "
+              />
+            </a>
+          </div>
+          <div class=" w-[50%] md:w-[25%]  flex items-center justify-center border-[0.05rem] border-gray-200 hover:bg-[#171822]  delay-100 duration-100  ">
+            <a href="#">
+              <img
+                src="/images/6.webp"
+                alt=""
+                class="  w-fit h-[12rem] py-12  px-6    grayscale  hover:scale-110 delay-100 ease-out duration-100 "
+              />
+            </a>
+          </div>
+          <div class=" w-[50%] md:w-[25%]  flex items-center justify-center border-[0.05rem] border-gray-200 hover:bg-[#171822]  delay-100 duration-100  ">
+            <a href="#">
+              <img
+                src="/images/7.png"
+                alt=""
+                class="  w-fit h-[12rem] py-12  px-6   grayscale  hover:scale-110 delay-100 ease-out duration-100 "
+              />
+            </a>
+          </div>
+          <div class=" w-[50%] md:w-[25%]  flex items-center justify-center border-[0.05rem] border-gray-200 hover:bg-[#171822]  delay-100 duration-100  ">
+            <a href="#">
+              <img
+                src="/images/8.webp"
+                alt=""
+                class=" w-fit h-[12rem] py-12  px-6   grayscale  hover:scale-110 delay-100 ease-out duration-100 "
+              />
+            </a>
+          </div>
+        </section>
+      </div>
+
+
+      <!-- Our Schedule Section -->
+
+      <div class=" w-[100%] px-3 sm:px-5 lg:px-16 max-w-[1600px] m-auto my-20 ">
+        <section class=" w-[100%]  ">
+          <p class=" text-center text-[2.5rem]  font-bold text-gray-900  tracking-wide ">
+            Our Schedule
+          </p>
+  
+          <p class=" text-[#777]  text-center font-normal text-[1.2rem] mt-2  ">
+            Do not miss anything topic about the event
+          </p>
+        </section>
+  
+        <section class="  flex items-center flex-wrap justify-between w-[100%] my-14   shadow-lg shadow-[#0000004a] ">
+          <div class=" w-[50%]  md:w-[20%] items-center justify-center py-3 bg-gradient-to-r from-[#e27c25] to-[#f34f84] cursor-pointer border-[0.05rem] border-slate-300  ">
+            <p class=" text-center text-white text-[1.1rem] font-bold ">
+              Day 1
+            </p>
+            <p class=" text-center text-slate-50 text-[1rem] font-normal ">
+              May 04, 2022
+            </p>
+          </div>
+  
+          <div class=" w-[50%] md:w-[20%] items-center justify-center py-3 cursor-pointer border-[0.05rem] md:border-x-[0.05rem] border-slate-200  ">
+            <p class=" text-center text-black text-[1.1rem] font-bold ">
+              Day 2
+            </p>
+            <p class=" text-center text-[#777] text-[1rem] font-normal ">
+              May 04, 2022
+            </p>
+          </div>
+  
+          <div class=" w-[50%] md:w-[20%] items-center justify-center py-3 cursor-pointer border-[0.05rem] md:border-x-[0.05rem] border-slate-200  ">
+            <p class=" text-center text-black text-[1.1rem] font-bold ">
+              Day 3
+            </p>
+            <p class=" text-center text-[#777] text-[1rem] font-normal ">
+              May 04, 2022
+            </p>
+          </div>
+  
+          <div class=" w-[50%] md:w-[20%] items-center justify-center py-3 cursor-pointer border-[0.05rem] md:border-x-[0.05rem] border-slate-200  ">
+            <p class=" text-center text-black text-[1.1rem] font-bold ">
+              Day 4
+            </p>
+            <p class=" text-center text-[#777] text-[1rem] font-normal ">
+              May 04, 2022
+            </p>
+          </div>
+  
+          <div class=" w-[50%] md:w-[20%] items-center justify-center py-3 cursor-pointer border-[0.05rem] md:border-x-[0.05rem] border-slate-200  ">
+            <p class=" text-center text-black text-[1.1rem] font-bold ">
+              Day 5
+            </p>
+            <p class=" text-center text-[#777] text-[1rem] font-normal ">
+              May 04, 2022
+            </p>
+          </div>
+        </section>
+  
+        <section class=" w-[100%] justify-around flex flex-col sm:flex-row  sm:px-2 lg:px-0  items-center py-5 border-slate-200 border-[0.05rem] md:border-x-[0.05rem] shadow-md shadow-[#0000001e] mb-10 ">
+          <img
+            src=" /images/speaker2.webp "
+            alt=""
+            class=" w-[8rem] h-[8rem] rounded-full "
+          />
+  
+          <div class=" w-[100%] sm:w-fit  px-3 lg:px-0 ">
+            <p class=" text-slate-900 text-[1.3rem] lg:text-[1.5rem] font-bold tracking-wide mt-4 md:mt-0 text-center md:text-left  w-[100%]  md:w-fit  ">
+              Dealing with Difficult People
+            </p>
+  
+            <section class=" flex items-center mt-4 md:mt-2  ">
+              <i class="bi bi-person-fill text-orange-600 text-[1rem]"></i>
+              <p class=" text-[#777] text-[1rem] pl-2 font-medium ">
+                John Smith
+              </p>
+  
+              <span class=" text-[#777] text-[1rem] mx-2 font-medium ">
+                /
+              </span>
+  
+              <i class="bi bi-envelope-fill text-orange-600 text-[1rem] "></i>
+              <p class=" text-[#777] text-[1rem] pl-2 font-medium ">
+                John Smith
+              </p>
+            </section>
+          </div>
+  
+          <section class=" flex flex-col items-center  justify-start  w-[100%] sm:w-fit mt-3 md:mt-0 px-3 sm:px-0 ">
+            <div class=" flex items-center w-[100%] ">
+              <i class="bi bi-clock-fill text-orange-600 text-[1rem]"></i>
+              <p class=" text-[#777] text-[1rem] pl-3 font-medium ">
+                08:00 am - 10:00 AM
+              </p>
+            </div>
+            <div class=" flex items-center mt-2 w-[100%] ">
+              <i class="bi bi-geo-alt-fill text-orange-600 text-[1rem]"></i>
+              <p class=" text-[#777] text-[1rem] pl-3 font-medium ">
+                59 Breanne Canyon Suite, USA
+              </p>
+            </div>
+          </section>
+        </section>
+  
+        <section class=" w-[100%] justify-around flex flex-col sm:flex-row sm:px-2 lg:px-0  items-center py-5 border-slate-200 border-[0.05rem] md:border-x-[0.05rem] shadow-md shadow-[#0000001e] mb-10 ">
+          <img
+            src=" /images/speaker4.webp "
+            alt=""
+            class=" w-[8rem] h-[8rem] rounded-full "
+          />
+  
+          <div class=" w-[100%] sm:w-fit  px-3 lg:px-0 ">
+            <p class=" text-slate-900 text-[1.3rem] lg:text-[1.5rem] font-bold tracking-wide mt-4 md:mt-0 text-center md:text-left  w-[100%]  md:w-fit  ">
+              Dealing with Difficult People
+            </p>
+  
+            <section class=" flex items-center mt-4 md:mt-2  ">
+              <i class="bi bi-person-fill text-orange-600 text-[1rem]"></i>
+              <p class=" text-[#777] text-[1rem] pl-2 font-medium ">
+                John Smith
+              </p>
+  
+              <span class=" text-[#777] text-[1rem] mx-2 font-medium ">
+                /
+              </span>
+  
+              <i class="bi bi-envelope-fill text-orange-600 text-[1rem] "></i>
+              <p class=" text-[#777] text-[1rem] pl-2 font-medium ">
+                John Smith
+              </p>
+            </section>
+          </div>
+  
+          <section class=" flex flex-col items-center  justify-start  w-[100%] sm:w-fit mt-3 md:mt-0 px-3 sm:px-0 ">
+            <div class=" flex items-center w-[100%] ">
+              <i class="bi bi-clock-fill text-orange-600 text-[1rem]"></i>
+              <p class=" text-[#777] text-[1rem] pl-3 font-medium ">
+                08:00 am - 10:00 AM
+              </p>
+            </div>
+            <div class=" flex items-center mt-2 w-[100%] ">
+              <i class="bi bi-geo-alt-fill text-orange-600 text-[1rem]"></i>
+              <p class=" text-[#777] text-[1rem] pl-3 font-medium ">
+                59 Breanne Canyon Suite, USA
+              </p>
+            </div>
+          </section>
+        </section>
+      </div>
+
+      
+
+
+      <!-- Our team component -->
+
+      <div class=" w-[100%] px-3 md:px-20 max-w-[1600px] m-auto my-20">
+        <p class=" text-[2.5rem] font-normal text-center ">
+          Meet Our <span class=" font-bold">Team</span>
+        </p>
+  
+        <section class=" w-[100%]  flex items-center justify-between mt-10 flex-wrap   ">
+         
+  
+          <div class=" w-[100%]  sm:w-[48%] lg:w-[32%] py-5 px-2  shadow-xl rounded-2xl  bg-white mb-10 hover:scale-105 delay-100 ease-in-out duration-100  ">
+            <section class=" bg-[url('/images/speaker1.webp')]  w-[15rem] h-[15rem] border-4 border-sky-700 bg-center bg-contain  rounded-full m-auto "></section>
+  
+            <p class=" text-center text-[1.7rem] font-medium mt-5 text-slate-800 ">
+              May Brown
+            </p>
+  
+            <p class=" text-[#777] mt-7 px-5 text-center ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic harum
+              vel quos tenetur saepe tempore suscipit quaerat molestiae et
+              excepturi?
+            </p>
+  
+            <h3 class=" text-center text-[1.2rem] text-slate-900 font-bold tracking-wide mt-4 ">
+              Technical Lead
+            </h3>
+  
+            <section class=" flex items-center w-fit space-x-5 m-auto mt-7">
+              <i class="fa-brands fa-facebook-f block cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer  text-slate-600 text-[1rem] hover:text-slate-900 "></i>
+
+            </section>
+          </div>
+  
+          <div class=" w-[100%] sm:w-[48%] lg:w-[32%] py-5 px-2  shadow-xl rounded-2xl  bg-white mb-10  hover:scale-105 delay-100 ease-in-out duration-100 ">
+            <section class=" bg-[url('/images/speaker2.webp')]  w-[15rem] h-[15rem] border-4 border-sky-700 bg-center bg-contain  rounded-full m-auto "></section>
+  
+            <p class=" text-center text-[1.7rem] font-medium mt-5 text-slate-800 ">
+              Alex Smith
+            </p>
+  
+            <p class=" text-[#777] mt-7 px-5 text-center ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic harum
+              vel quos tenetur saepe tempore suscipit quaerat molestiae et
+              excepturi?
+            </p>
+  
+            <h3 class=" text-center text-[1.2rem] text-slate-900 font-bold tracking-wide mt-4 ">
+              Sales Lead
+            </h3>
+  
+            <section class=" flex items-center w-fit space-x-5 m-auto mt-7">
+              <i class="fa-brands fa-facebook-f block cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer  text-slate-600 text-[1rem] hover:text-slate-900 "></i>
+
+            </section>
+          </div>
+  
+          <div class=" w-[100%] sm:w-[48%] lg:w-[32%] py-5 px-2  shadow-xl rounded-2xl  bg-white mb-10  hover:scale-105 delay-100 ease-in-out duration-100 ">
+            <section class=" bg-[url('/images/speaker3.webp')]  w-[15rem] h-[15rem] border-4 border-sky-700 bg-center bg-contain  rounded-full m-auto "></section>
+  
+            <p class=" text-center text-[1.7rem] font-medium mt-5 text-slate-800 ">
+              Roxie Swanson
+            </p>
+  
+            <p class=" text-[#777] mt-7 px-5 text-center ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic harum
+              vel quos tenetur saepe tempore suscipit quaerat molestiae et
+              excepturi?
+            </p>
+  
+            <h3 class=" text-center text-[1.2rem] text-slate-900 font-bold tracking-wide mt-4 ">
+              Creative Leader
+            </h3>
+  
+            <section class=" flex items-center w-fit space-x-5 m-auto mt-7">
+              <i class="fa-brands fa-facebook-f block cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer  text-slate-600 text-[1rem] hover:text-slate-900 "></i>
+
+            </section>
+          </div>
+  
+          <div class=" w-[100%] sm:w-[48%] lg:w-[32%] py-5 px-2  shadow-xl rounded-2xl  bg-white mb-10  hover:scale-105 delay-100 ease-in-out duration-100 ">
+            <section class=" bg-[url('/images/speaker3.webp')]  w-[15rem] h-[15rem] border-4 border-sky-700 bg-center bg-contain  rounded-full m-auto "></section>
+  
+            <p class=" text-center text-[1.7rem] font-medium mt-5 text-slate-800 ">
+              Roxie Swanson
+            </p>
+  
+            <p class=" text-[#777] mt-7 px-5 text-center ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic harum
+              vel quos tenetur saepe tempore suscipit quaerat molestiae et
+              excepturi?
+            </p>
+  
+            <h3 class=" text-center text-[1.2rem] text-slate-900 font-bold tracking-wide mt-4 ">
+              Creative Leader
+            </h3>
+  
+            <section class=" flex items-center w-fit space-x-5 m-auto mt-7">
+              <i class="fa-brands fa-facebook-f block cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer  text-slate-600 text-[1rem] hover:text-slate-900 "></i>
+
+            </section>
+          </div>
+  
+          <div class=" w-[100%] sm:w-[48%] lg:w-[32%] py-5 px-2  shadow-xl rounded-2xl  bg-white mb-10  hover:scale-105 delay-100 ease-in-out duration-100 ">
+            <section class=" bg-[url('/images/speaker3.webp')]  w-[15rem] h-[15rem] border-4 border-sky-700 bg-center bg-contain  rounded-full m-auto "></section>
+  
+            <p class=" text-center text-[1.7rem] font-medium mt-5 text-slate-800 ">
+              Roxie Swanson
+            </p>
+  
+            <p class=" text-[#777] mt-7 px-5 text-center ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic harum
+              vel quos tenetur saepe tempore suscipit quaerat molestiae et
+              excepturi?
+            </p>
+  
+            <h3 class=" text-center text-[1.2rem] text-slate-900 font-bold tracking-wide mt-4 ">
+              Creative Leader
+            </h3>
+  
+            <section class=" flex items-center w-fit space-x-5 m-auto mt-7">
+              <i class="fa-brands fa-facebook-f block cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer  text-slate-600 text-[1rem] hover:text-slate-900 "></i>
+
+            </section>
+          </div>
+  
+          <div class=" w-[100%] sm:w-[48%] lg:w-[32%] py-5 px-2  shadow-xl rounded-2xl  bg-white mb-10  hover:scale-105 delay-100 ease-in-out duration-100 ">
+            <section class=" bg-[url('/images/speaker3.webp')]  w-[15rem] h-[15rem] border-4 border-sky-700 bg-center bg-contain  rounded-full m-auto "></section>
+  
+            <p class=" text-center text-[1.7rem] font-medium mt-5 text-slate-800 ">
+              Roxie Swanson
+            </p>
+  
+            <p class=" text-[#777] mt-7 px-5 text-center ">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic harum
+              vel quos tenetur saepe tempore suscipit quaerat molestiae et
+              excepturi?
+            </p>
+  
+            <h3 class=" text-center text-[1.2rem] text-slate-900 font-bold tracking-wide mt-4 ">
+              Creative Leader
+            </h3>
+  
+            <section class=" flex items-center w-fit space-x-5 m-auto mt-7">
+              <i class="fa-brands fa-facebook-f block cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-twitter  cursor-pointer text-slate-600 text-[1rem] hover:text-slate-900  "></i>
+              <i class="fa-brands fa-linkedin-in  cursor-pointer  text-slate-600 text-[1rem] hover:text-slate-900 "></i>
+
+            </section>
+          </div>
+      
+        </section>
+      </div>
+
+
+      <!-- Pricing plan components -->
+
+      <div class=" w-[100%] mt-10 max-w-[1600px] m-auto  ">
+        <div class=" w-[100%] px-3 sm:w-[80%]  lg:w-[50%] m-auto flex items-center justify-center border-0 border-black flex-col ">
+          <p class=" text-[2.1rem] md:text-[2.5rem] font-normal tracking-normal  ">
+            Suitable <span class=" font-bold "> Pricing Plans</span>
+          </p>
+  
+          <p class=" text-center  mt-4 text-[0.9rem] md:text-[1.1rem] font-normal text-[#777777] ">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
+            atque aperiam provident dolores similique excepturi aspernatur vitae
+            sequi qui quidem.
+          </p>
+        </div>
+  
+        <section class=" traingle-design  flex justify-around items-center flex-wrap flex-col sm:flex-row  w-[100%] my-10  md:my-14 py-16 px-3 lg:px-16 ">
+          
+  
+          <div class=" w-[100%] sm:w-[48%] lg:w-[31%] shadow-lg rounded-md shadow-[#00000026]  bg-white mb-10 lg:mb-0 ">
+            <section class=" w-[100%] py-7 border-b-[0.1rem] border-slate-200 flex items-center px-5  justify-between ">
+              <p class=" font-bold tracking-wide text-[1.1rem] text-slate-900 ">
+                Standard <br />
+                <span class=" font-medium text-[1rem] text-[#777] ">
+                  For the individuals
+                </span>
+              </p>
+  
+              <p class="  text-[3.5rem] font-bold  ">£199</p>
+            </section>
+  
+            <section class=" py-10  w-[100%] items-center text-center  ">
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                2.5 GB Free Photos
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Secure Online Transfer Indeed
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Unlimited Styles for interface
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Reliable Customer Service
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Manual Backup Provided
+              </p>
+              <button class=" mt-10 bg-gray-100 tracking-wide  text-[0.9rem] text-slate-900 font-medium px-10 py-3 m-auto border-[0.1rem] hover:text-white border-gray-300 hover: bg-gradient-to-r hover:from-[#46dbf9] hover:to-[#204be3]  hover:border-white   duration-100 delay-75 ease-in-out   ">
+                
+                Purchase Plan
+              </button>
+            </section>
+          </div>
+  
+          <div class=" w-[100%] sm:w-[48%] lg:w-[31%] shadow-lg rounded-md shadow-[#00000026]  bg-white mb-10 lg:mb-0 ">
+            <section class=" w-[100%] py-7 border-b-[0.1rem] border-slate-200 flex items-center px-5  justify-between ">
+              <p class=" font-bold tracking-wide text-[1.1rem] text-slate-900 ">
+                Standard <br />
+                <span class=" font-medium text-[1rem] text-[#777] ">
+                  For the individuals
+                </span>
+              </p>
+  
+              <p class="  text-[3.5rem] font-bold  ">£399</p>
+            </section>
+  
+            <section class=" py-10  w-[100%] items-center text-center  ">
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                2.5 GB Free Photos
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Secure Online Transfer Indeed
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Unlimited Styles for interface
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Reliable Customer Service
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Manual Backup Provided
+              </p>
+              <button class=" mt-10 bg-gray-100 tracking-wide  text-[0.9rem] text-slate-900 font-medium px-10 py-3 m-auto border-[0.1rem] hover:text-white border-gray-300 hover: bg-gradient-to-r hover:from-[#46dbf9] hover:to-[#204be3]  hover:border-white   duration-100 delay-75 ease-in-out   ">
+              
+                Purchase Plan
+              </button>
+            </section>
+          </div>
+  
+          <div class=" w-[100%] sm:w-[48%] lg:w-[31%] shadow-lg rounded-md shadow-[#00000026]  bg-white mb-10 lg:mb-0  ">
+            <section class=" w-[100%] py-7 border-b-[0.1rem] border-slate-200 flex items-center px-5  justify-between ">
+              <p class=" font-bold tracking-wide text-[1.1rem] text-slate-900 ">
+                Standard <br />
+                <span class=" font-medium text-[1rem] text-[#777] ">
+                  For the individuals
+                </span>
+              </p>
+  
+              <p class="  text-[3.5rem] font-bold  ">£499</p>
+            </section>
+  
+            <section class=" py-10  w-[100%] items-center text-center  ">
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                2.5 GB Free Photos
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Secure Online Transfer Indeed
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Unlimited Styles for interface
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Reliable Customer Service
+              </p>
+              <p class=" text-[#777b] text-[1.1rem] font-medium mb-4 ">
+                Manual Backup Provided
+              </p>
+              <button class=" mt-10 bg-gray-100 tracking-wide  text-[0.9rem] text-slate-900 font-medium px-10 py-3 m-auto border-[0.1rem] hover:text-white border-gray-300 hover: bg-gradient-to-r hover:from-[#46dbf9] hover:to-[#204be3]  hover:border-white   duration-100 delay-75 ease-in-out   ">
+                
+                Purchase Plan
+              </button>
+            </section>
+          </div>
+  
+          
+        </section>
+      </div>
+
+      <!-- Blog post section -->
+
+      <div class=" w-[100%] my-20  max-w-[1600px] m-auto ">
+        <p class=" w-[100%] text-center  font-bold text-[2.5rem] tracking-wide  ">
+          Blog Posts
+        </p>
+  
+        <section class=" flex items-center flex-col md:flex-row justify-around md:px-10 px-2 sm:px-10 w-[100%] mt-10 ">
+          
+          <div class=" w-[95%] md:w-[30%] mb-10  md:mb-0 ">
+            <img src="/images/image.jpg " alt="" class="w-[100%] h-52" />
+  
+            <p class="  tracking-wide font-sans font-extralight  text-[2.3rem] leading-10 pt-5 ">
+              Create interactive prototypes
+            </p>
+  
+            <p class="pt-4 font-thin text-[#777] tracking-wide  ">
+              Ham Book - Jan 18,2019 &nbsp; - &nbsp;
+              <span class=" text-[#00D2B5] hover:text-[#33bcaa] cursor-pointer ">
+                
+                News
+              </span>
+            </p>
+  
+            <p class="mt-5  text-[1rem] text-[#777777e6]  ">
+              
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              id exercitationem facere aut, ipsa eius. Sapiente pariatur maxime
+              exercitationem ipsum! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Dolores, voluptate.
+            </p>
+  
+            <p class="text-[#00D2B5] hover:text-[#33bcaa] cursor-pointer text-[1rem] pt-3 ">
+              Continue Reading...
+            </p>
+          </div>
+  
+     
+          <div class=" w-[95%] md:w-[30%] mb-10  md:mb-0 ">
+            <img src="/images/image2.jpg " alt="" class="w-[100%] h-52" />
+  
+            <p class="  tracking-wide font-sans font-extralight  text-[2.3rem] leading-10 pt-5 ">
+              Create interactive prototypes
+            </p>
+  
+            <p class="pt-4 font-thin text-[#777] tracking-wide  ">
+              Ham Book - Jan 18,2019 &nbsp; - &nbsp;
+              <span class=" text-[#00D2B5] hover:text-[#33bcaa] cursor-pointer ">
+                
+                News
+              </span>
+            </p>
+  
+            <p class="mt-5  text-[1rem] text-[#777777e6]  ">
+            
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              id exercitationem facere aut, ipsa eius. Sapiente pariatur maxime
+              exercitationem ipsum! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Dolores, voluptate.
+            </p>
+  
+            <p class="text-[#00D2B5] hover:text-[#33bcaa] cursor-pointer text-[1rem] pt-3 ">
+              Continue Reading...
+            </p>
+          </div>
+  
+         
+          <div class=" w-[100%] md:w-[30%] mb-10  md:mb-0 ">
+            <img src="/images/image3.jpg " alt="" class="w-[100%] h-52" />
+  
+            <p class="  tracking-wide font-sans font-extralight  text-[2.3rem] leading-10 pt-5 ">
+              Create interactive prototypes
+            </p>
+  
+            <p class="pt-4 font-thin text-[#777] tracking-wide  ">
+              Ham Book - Jan 18,2019 &nbsp; - &nbsp;
+              <span class=" text-[#00D2B5] hover:text-[#33bcaa] cursor-pointer ">
+                
+                News
+              </span>
+            </p>
+  
+            <p class="mt-5  text-[1rem] text-[#777777e6]  ">
+            
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+              id exercitationem facere aut, ipsa eius. Sapiente pariatur maxime
+              exercitationem ipsum! Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Dolores, voluptate.
+            </p>
+  
+            <p class="text-[#00D2B5] hover:text-[#33bcaa] cursor-pointer text-[1rem] pt-3 ">
+              Continue Reading...
+            </p>
+          </div>
+        </section>
+      </div>
+
+
+      <!-- Get in touch section -->
+
+      <div class=" w-[100%] my-20 max-w-[1600px]  m-auto">
+        <div class=" w-[100%]  md:w-[50%] m-auto flex items-center justify-center border-0 border-black flex-col ">
+          <p class=" text-[2.5rem] font-bold tracking-normal  ">
+            Get in Touch
+          </p>
+  
+          <p class=" text-center  mt-4 text-[1.1rem] font-normal text-[#777777] px-2 ">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis
+            atque aperiam provident dolores.
+          </p>
+        </div>
+  
+        <div class="w-[100%] px-2  md:px-0 md:w-[60%] mt-16 m-auto ">
+          <section class=" w-[100%] flex flex-col md:flex-row items-center justify-between ">
+            <input
+              type="text"
+              placeholder="Your Name"
+              class=" text-[0.9rem] font-normal  px-5 py-3 w-[100%] md:w-[48%] rounded-full border-[0.05rem] border-gray-400 outline-none italic tracking-wide  "
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              class=" text-[0.9rem] font-normal mt-5 md:mt-0  px-5 py-3 w-[100%] md:w-[48%] rounded-full border-[0.05rem] border-gray-400 outline-none italic  tracking-wide "
+            />
+          </section>
+  
+          <section class="w-[100%]">
+            <input
+              type="text"
+              placeholder="Subject"
+              class=" text-[0.9rem] font-normal  px-5 py-3 w-[100%]  rounded-full border-[0.05rem] border-gray-400 outline-none italic  tracking-wide mt-5 "
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              placeholder="Message"
+              class=" text-[0.9rem] font-normal  px-5 py-3 w-[100%]  rounded-3xl border-[0.05rem] border-gray-400 outline-none italic  tracking-wide mt-5 "
+              rows="8"
+            ></textarea>
+          </section>
+  
+          <button class=" w-[100%] rounded-full py-3 text-center bg-[#615cfd] text-slate-50  mt-4  text-[1rem] font-normal tracking-wide hover:bg-slate-50 hover:border-[0.05rem] hover:border-[#615cfd] hover:text-[#615cfd] delay-100  ease-in-out  duration-150">
+            Send Message
+          </button>
+        </div>
+      </div>
+
+
+      <!-- Contact and newsSettler section -->
+
+      <div class="w-[100%] max-w-[1600px] m-auto ">
+
+        <section class=" bg-[url('/images/newssettler.jpg')]   m-auto my-20 lg:h-48 h-60 rounded-md w-[95%] md:w-[90%] flex flex-col lg:flex-row items-center justify-between px-3 md:px-20 py-5 lg:py-0  bg-cover bg-no-repeat shadow-lg shadow-[#0d0d0db8] ">
+
+          <div class="  flex items-center lg:items-start  justify-start flex-col mt-3 lg:mt-0 ">
+            <p class=" text-[1.8rem] md:text-[2.2rem] text-white font-semibold ">
+              Subscribe Newsletter
+            </p>
+            <p class=" text-[0.9rem] text-center md:text-left md:text-[1.2rem] pt-2 text-slate-100 ">
+              Subscribe to our newsletter and don’t miss anything
+            </p>
+          </div>
+  
+          <div class=" rounded-full px-2  bg-white w-[99%] lg:w-[40%] flex ">
+            <input
+              type="email"
+              placeholder="Your email"
+              class=" px-2 text-[1rem] md:text-[1.1rem] flex-1 outline-none rounded-l-full  "
+            />
+  
+            <button class=" rounded-full px-4 md:px-5 text-[1rem] py-2 my-2 bg-gradient-to-r from-[#e27c25] to-[#f34f84] font-medium text-white ">
+              Subscribe
+            </button>
+
+          </div>
+
+        </section>
+  
+        <section class=" my-10  w-[100%] md:w-[90%] flex m-auto flex-col lg:flex-row ">
+
+          <div class=" w-[90%] m-auto  lg:w-[50%] items-center justify-start  mb-7 lg:mb-0 ">
+
+            <p class=" text-[2.2rem] sm:text-[2.5rem] tracking-wide font-extrabold  ">
+              Location
+            </p>
+            <p class=" pt-1 text-[#777] text-[1.1rem] sm:text-[1.3rem]  ">
+              Get directions to our event center.
+            </p>
+  
+            <h2 class=" mt-5 md:mt-7  text-[1rem] sm:text-[1.3rem] text-gray-700  font-medium ">
+              Address:
+            </h2>
+            <p class=" text-[#777] mt-1 text-[1.1rem] sm:text-[1.2rem] tracking-wide ">
+              01 Pascale Springs Apt. 339, NY City <br /> United State
+            </p>
+  
+            <section class=" flex flex-col lg:flex-row justify-start ">
+
+              <div class="mr-10">
+                <h2 class=" mt-4 md:mt-5 text-[1rem] sm:text-[1.3rem] text-gray-700 font-medium ">
+                  Phone:
+                </h2>
+                <p class=" text-[#777]  mt-1 text-[1.1rem] sm:text-[1.2rem] tracking-wide ">
+                  (+12)-345-67-8910
+                </p>
+              </div>
+
+              <div>
+                <h2 class=" mt-4 md:mt-5 text-[1rem] sm:text-[1.3rem] text-gray-700 font-medium ">
+                  Email:
+                </h2>
+                <p class=" text-[#777] mt-1 text-[1.1rem] sm:text-[1.2rem] tracking-wide ">
+                  info.colorlib@gmail.com
+                </p>
+              </div>
+
+            </section>
+  
+            <h2 class=" mt-4 md:mt-5 text-[1rem] sm:text-[1.3rem] text-gray-700 font-medium ">
+              Website:
+            </h2>
+            <p class=" text-[#777]  mt-1 text-[1.1rem] sm:text-[1.2rem] tracking-wide ">
+              https://conference.colorlib.com
+            </p>
+          </div>
+  
+          <iframe
+            class=" w-[100%] lg:w-[50%] shadow-lg shadow-[#02020299] lg:rounded-md "
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52901.3878949553…20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1579763856144!5m2!1sen!2sbd"
+            height="400"
+            allowFullScreen
+          ></iframe>
+
+        </section>
+
+      </div>
+
+
+
+      <!-- Footer section -->
+
+
+      <div class=" mt-20 bg-[#171822] max-w-[1600px] m-auto ">
+
+        <section class=" py-14 w-[100%] ">
+
+          <img src="/images/logo.png" alt="" class=" w-[12rem] m-auto " />
+  
+          <div class=" w-[100%] md:w-fit m-auto space-x-4 items-center justify-center flex md:space-x-11 mt-5 ">
+            <a
+              href="#"
+              class=" text-[0.9rem] md:text-[1.1rem] font-normal tracking-wide  text-gray-300 hover:text-gray-100 hover:scale-125 delay-150 ease-in-out duration-200 "
+            >
+              Home
+            </a>
+            <a
+              href="#"
+              class=" text-[0.9rem] md:text-[1.1rem] font-normal tracking-wide text-gray-300 hover:text-gray-100 hover:scale-125 delay-150 ease-in-out duration-200  "
+            >
+              Speakers
+            </a>
+            <a
+              href="#"
+              class=" text-[0.9rem] md:text-[1.1rem] font-normal tracking-wide text-gray-300 hover:text-gray-100 hover:scale-125 delay-150 ease-in-out duration-200 "
+            >
+              Schedule
+            </a>
+            <a
+              href="#"
+              class=" text-[0.9rem] md:text-[1.1rem] font-normal tracking-wide text-gray-300 hover:text-gray-100 hover:scale-125 delay-150 ease-in-out duration-200 "
+            >
+              Blog
+            </a>
+            <a
+              href="#"
+              class=" text-[0.9rem] md:text-[1.1rem] font-normal tracking-wide text-gray-300 hover:text-gray-100 hover:scale-125 delay-150 ease-in-out duration-200 "
+            >
+              Contact
+            </a>
+
+          </div>
+  
+          <p class=" mt-5 text-gray-500  text-center tracking-wide px-1 text-[0.9rem] md:text-[1rem] ">
+            Copyright ©2022 All rights reserved | This website is made with 💖 by
+            <span class=" text-gray-400"> Tech Team </span>
+          </p>
+  
+          <section class=" flex w-[100%] md:w-fit space-x-5  items-center justify-center  m-auto mt-8  ">
+
+            <div class="  rounded-full flex items-center justify-center  h-[2.5rem] w-[2.5rem] border-slate-600 border-[0.05rem] cursor-pointer ">
+              <i class="fa-brands fa-facebook-f  w-fit text-[#777] "></i>
+              
+            </div>
+            <div class="  rounded-full flex items-center justify-center  h-[2.5rem] w-[2.5rem] border-slate-600 border-[0.05rem] cursor-pointer ">
+              <i class="fa-brands fa-twitter   w-fit text-[#777] "></i>
+            </div>
+            <div class="  rounded-full flex items-center justify-center  h-[2.5rem] w-[2.5rem] border-slate-600 border-[0.05rem] cursor-pointer ">
+              <i class="fa-brands fa-linkedin-in   w-fit text-[#777] "></i>
+            </div>
+            <div class="  rounded-full flex items-center justify-center  h-[2.5rem] w-[2.5rem] border-slate-600 border-[0.05rem]  cursor-pointer">
+              <i class="fa-brands fa-instagram   w-fit text-[#777] "></i>
+            </div>
+            <div class="  rounded-full flex items-center justify-center  h-[2.5rem] w-[2.5rem] border-slate-600 border-[0.05rem] cursor-pointer ">
+              <i class="fa-brands fa-youtube   w-fit text-[#777] "></i>
+            </div>
+
+          </section>
+  
+        </section>
+      </div>
+
+
+      <script>
+        function Menu(e){
+          let list = document.querySelector('ul');
+          e.name === 'menu' ? (e.name = "close",list.classList.add('top-[50px]') , list.classList.add('opacity-100')) :( e.name = "menu" ,list.classList.remove('top-[50px]'),list.classList.remove('opacity-100'))
+        }
+      </script>
+
+      
+  </body>
+</html>
